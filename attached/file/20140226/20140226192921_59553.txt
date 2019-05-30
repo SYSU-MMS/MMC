@@ -1,0 +1,365 @@
+
+
+-----------------------------------------------------------------
+./configure --prefix=/root/web/php --with-config-file-path=/root/web/php/etc  --with-apxs2=/root/web/apache/bin/apxs  --with-mysql=/root/web/mysql --with-mysqli=/root/web/mysql/bin/mysql_config --with-gd --with-zlib --with-png --with-jpeg --with-freetype 
+
+./configure --with-php-config=/root/web/php/bin/php-config  --with-jpeg-dir=/usr/lib64/ --with-png-dir=/usr/lib64/ --with-zlib-dir=/usr/ --with-freetype-dir=/usr/lib64/  
+您好！我叫何浩，是青旅会员，会员卡是在2014年1月17日过期，卡号是082-01-0316930，1月16日在中国青旅官网申请续费，并且成功续费。但是查不到快递信息和你们的发卡通知。打电话给总部也没人接，请问什么时候能收到续费的会员卡？
+
+
+
+2013.05-2013.09       百度中国有限公司 上海研发中心 联盟研发部 实习生 
+	使用zookeeper，thrift和yii框架负责联盟研发部门的实验管理平台的设计开发。联盟研发部是做广告投放的，项目定位是公司内部使用的项目，目的是规范实验流程，加快策略人员的实验效率和减少线上事故。策略人员主要是做流量实验，使用cookie跟踪用户行为，并且采用不同的策略做实验看广告收益。
+我们团队核心开发地有5个人。
+我的导师写了分布式的元数据管理的平台框架META，支持热插拔so插件。
+另外一个C++开发后台写了libview.so插件，封装了mysql，提供了各种接口给我访问mysql。我的工作之一就是和libview.so的后台协商制定各种接口，数据传输采用json格式。
+另外一个高工写的2个工具，主要是负责分布式的任务调度，主要是并发推包，离线数据挖掘，和控制实验逻辑，比如实验上线，实验下线。我的工作之一就是完成了这2个工具的封装，同时解析他们XML格式数据产出，显示在界面用于用户交互。
+我负责数据库表的设计，但是没有访问mysql的权限。我用php封装了zookeeper和thrift。用zookeeper随即获取META服务器的节点，避免了单点故障。用thrift和META通信。因为thrift跨语言，很好的支持C++后台和php之间的通信。同时使用了curl组件调用基础架构部的API往实验集群里注入实验信息。
+总结，web前端用了bootstrap框架，JQuery框架，web后台用yii框架，cas单点登录，curl组件。数据格式json,xml。数据库以主从架构采用mysql。服务器用apache和内部研发的META。通信协议用thrift，同时使用zookeeper维护服务器集群的状态。
+---------------------------------------------------------------------------------------
+11619831316
+11619831316
+LUSEU01001116306A91601
+
+010800086688951
+
+<div id="wrapper-TestForm_toggle"><input id="ytTestForm_toggle" value="0" name="TestForm[toggle]" type="hidden"><input name="TestForm[toggle]" id="TestForm_toggle" value="1" type="checkbox"></div>
+
+
+
+---------------------------------------------------------------------------------------
+一波针对Apache/PHP 漏洞的攻击来袭，可以直接获取服务器权限。
+
+漏洞描述： 
+       今天有黑客公开了直接入侵服务器获取系统权限的攻击方式，正在全网大规模扫描攻击！
+       该漏洞存在于使用PHP的Apache服务器，在Debian和Ubuntu的服务器上默认安装php5-cgi模块的服务器都存在此漏洞。
+
+漏洞危害: 存在该漏洞的服务器,会被攻击者直接控制. 
+
+如果存在漏洞，我该如何解决？
+修复方案: （任一方案都可）
+       1、 Apache关闭 CGI 模块后并重启Apache.（在Apache配置文件内注释此行LoadModule cgi_module /usr/lib/apache2/modules/mod_cgi.so）. 
+       2、php升级至 5.4.2 以上版本.
+阿里云云服务器的用户，我们强烈建议您，可以开启“网站安全防御（WAF）”拦截各类WEB漏洞，为您提供实时防护。请登陆云盾控制台>>服务设置>>网站安全防御  进行设置，后台地址： http://yundun.aliyun.com/manage/details/detectnotifyconfig
+阿里云计算
+2013年10月30日
+
+---------------------------------------------------------------------------------------
+将wamp卸载，apache用2.4.6版或更高，php升级到5.5，把mod_proxy、mod_rewrite、mod_proxy_ftp、mod_negotiation、mod_setenvif，模块关闭掉
+
+rundll32.exe shell32.dll,Control_RunDLL hotplug.dll
+
+网站环境更新完毕
+Apache-2.4.6-VC9
+Php-5.4.21-VC9	
+mysql-5.6.14
+
+php本来想装php-5.5.5，但只有php-5.5.5只有VC11的版本，没有VC9的版本,windows server 2003不支持VC11,一开始安装php-5.5.5-VC11，Apache加载php5apache2_4.dll失败。切换回Php-5.4.21-VC9就没问题。因此，若要把php升级到5.5,我感觉是至少要升级windows server 为2008或者换成linux。
+
+网站目录迁移完毕，静态网页显示正常。动态页面由于后台数据库没迁移，所以显示不完整。
+永燊今天什么时候有空用你之前的脚本迁移一下数据库吧。
+数据库的用户名 root 密码123123,你可以顺便改改密码。
+---------------------------------------------------------------------------------------
+
+
+
+硕士学位论文开题报告
+
+---------------------------------------------------------------------------------------
+
+39332701
+
+http://kenby.iteye.com/blog/1030055
+
+我突然有新的想法
+别用lamp搭框架了，我们尝试个新的吧，既然有机器资源，又不紧
+我们用node.js吧
+这样前后台都是用js写成的~
+或者玩一下新的东西，如ruby啦
+
+12213100 李均豪
+
+Nagoya University International Residence Yamate 165 Takamine-cho, Showa-ku, Nagoya, Aichi, Japan   466-081
+
+何浩 12213084  叶浩荣 12213103  于明月 12213046  杨莉 12213077  余炯宇 12213104
+
+RA521160267CN
+
+---------------------------------------------------------------------------------------
+http://topic.csdn.net/u/20120323/19/df6d9404-15c6-46fb-9a25-1380c6a26238.html
+http://topic.csdn.net/u/20120303/12/a963851e-a151-4a81-9812-bb52d1942f83.html
+乐清小明
+---------------------------------------------------------------------------------------
+
+David Villa  23:31:40新号码：13564919875，8月9号开始使用，原广州号停用，惠存..手机一下发太卡了，直接qq上说了.有号码更换就告诉我下..
+
+1701 Cropsey Avenue， Brooklyn, NY11214， USA    NY11214   
+你好，我换电话号码为13926962130，请惠存
+
+一、值班饭堂：东校区学生第二食堂（都城饭堂）、君城餐厅，
+其他食堂按正常放假
+（学三、学四食堂：7月26日停餐，9月10日开餐；学一食堂8月1日停餐，9月1日开餐）；    
+
+二、供餐时间：
+都城：
+早餐 7：30-10：00，
+午餐10：30-13：00，
+晚餐16：30-21：00 ；
+
+君城 8：30-13：00，16：30-18：30 
+图书馆——1. 开馆时间：周一至周五9:00-16:00。其中，图书借还服务时间及喜乐斯藏书开放时间为：9:00-12:00；14:00-16:00。   
+2. 根据学校节能要求，暑假期间，开放2、3、5楼为读者阅览区域。如需阅览4楼过刊及过报，请与5楼值班馆员联系取用。    
+3. 暑假到期的图书均可在开学后一周内归还。
+
+《借东西的小人阿莉埃蒂》改编自英国已故儿童文学家玛丽·诺顿发表于1953年的代表作《借东西的地下小人》，该作曾在1997年被英国拍成真人电影《寄居大侠》。
+关于本科毕业论文提交的几项通知：
+1. 电子版文档须包含的内容有：论文正文、过程检查情况记录表、毕业论文成绩评定记录中导师评语和成绩评定部分。（导师签名部分可以用电子版，不用等签名后扫描提交）
+2. 打印版文档请采用双面打印。文档按照学院规定毕业论文应按以下顺序装订：封面→毕业论文（设计）开题报告→毕业论文（设计）过程检查情况记录表→毕业论文（设计）答辩情况登记表→学术诚信声明→中英文摘要→目录→引言→正文→结语→参考文献→致谢→附录→成绩评定记录。
+3. 现FTP已可以上传，请各位同学将相关材料于5月7日前上传到“ ftp://202.116.65.67”中指定文件目录“本科论文上传”的相应专业中。
+4. 论文纸质版现不用打印，等通过学院的形式审查后再打印并提交至学院。 
+
+
+
+
+---------------------------------------------------------------------------------------
+
+
+
+微软“明日之星”实习生项目交流会 admin 2011-12-02 13:04:44 作为微软公司在美国本土以外最大的基础研究机构，微软亚洲研究院通过不懈地致力于基础的、有潜力的科研活动以实现微软公司对未来计算的美好构想。从1998年建院到现在, 通过从世界各地吸纳而来的专家学者们的鼎力合作，微软亚洲研究院已经发展成为世界一流的计算机基础研究机构。“明日之星”实习生项目由微软亚洲研究院和国内外高校共同执行，主要面向优秀本科生、硕士生和博士生，旨在培养高素质的计算机基础研究人才。作为微软亚洲研究院人才培养方面的重点项目，“明日之星”实习生项目在十年间为来自国内外100多所大学60多个专业的2500多名学生提供了实习机会。进入微软研究院实习，是非常珍贵难得的机会。除了可以从事一流的技术研究，实习学生还能享受微软亚洲研究院提供的学术交流机会。
+
+
+通过在 “明日之星”实习生项目中不断实践和学习的过程，很多实习生在研究领域都取得了十分显著的进步。他们中有的同学在世界一流的学术会议和期刊上发表了超过20篇科研论文；有的同学实习期间的科研成果最终转化到了产品中去；还有些同学将自己在研究院学习到的科研实践方法带回到学校中去，促进了广大同学们的共同进步。更多的同学通过不断的积累和学习，获得了到像CMU, MIT, Harvard, UCLA等世界一流大学中继续深造的机会，最终在科研、教育、工业等领域中，找到了适合自己的职业发展方向。
+ 看到这里是否想和曾在微软亚洲研究院实习的同学面对面交流？现在我们微软俱乐部即将举办Stars of Tomorrow-微软“明日之星”实习生项目交流会，届时将邀请到曾在微软亚洲研究院实习的同学作为主讲嘉宾，给大家带来经验分享。现场还会为大家提供咨询。
+
+所有到场的同学会将得到微软亚洲研究院精美纪念品，并优先获得实习推荐资格。名额有限，赶紧报名吧！
+
+
+活动时间： 2011年12月10日（周六）19:00-21:00      
+活动地点： 新学生活动中心文化沙龙 
+
+ 
+
+
+
+
+报名方式：
+登陆中大微软俱乐部官网http://msclub.sysu.edu.cn填写个人资料报名
+
+或直接登录网上报名http://msclub.sysu.edu.cn/LatestNews/2011-12-01/8.html
+报名截止时间：12月7日晚10：00前
+报名成功后会有工作人员通知领取入场券（限40人）
+
+ 
+QQ咨询群：193954432
+咨询邮箱：sysumstc@126.com
+
+ 
+
+附：主讲嘉宾资料
+
+苗子晨 
+微软亚洲研究院高校关系组(University Relations Group)实习生
+信科院电子与通信工程专业11级研究生 
+中大微软俱乐部前任主席
+MSRA实习评级：Excellent
+您想通过本次交流会了解到哪些信息？对本次交流会的内容有哪些建议？
+
+杨飞雕
+微软亚洲搜索技术中心Relevance Team SDE实习生
+信科院计算机系09级研究生
+曾获 ACM/ICPC 亚洲赛区金牌,，GDCPC 一等奖,
+首届全国大学生数据挖掘邀请赛研究生组三等奖等, 
+从事量子计算与量子信息论的学习与研究工作
+曾在 Yahoo Beijing R&D Center 的 Advertisement Product Group / Science Team 担任 research intern
+
+曾鸣
+微软亚洲研究院软件分析组（ Software Analytics Group）实习生
+信科院计算机应用技术专业研究生
+研究方向：机器学习&数据挖掘
+
+ 
+陈程
+微软亚洲研究院系统组（System Group）实习生
+信科院计算机软件与理论专业研究生  
+研究方向：数据库与数据挖掘
+2008年ACM/ICPC北京赛区银牌
+您关于微软“明日之星”实习生项目有哪些疑问
+Copyright sysuMSTC 2011 
+
+
+
+月全食12月10日登场 下周六的月亮是红色的 http://news.xinhuanet.com/tech/2011-12/01/c_122362958.htm 
+
+
+http://social.msdn.microsoft.com/Forums/en-US/kinectsdknuiapi/thread/24276df9-0e4c-49cb-92ca-b233599f94ba
+
+http://channel9.msdn.com/coding4fun/kinect/Display-Kinect-color-image-containing-only-players-aka-background-removal
+
+http://baike.baidu.com/view/3048187.html
+
+http://msdn.microsoft.com/zh-cn/library/bb397687.aspx
+
+
+
+在Expression Blend中使用XAML建立3D应用程序 
+http://v.youku.com/v_show/id_XMjg5MjM0MTY=.html
+
+http://www.jingju.com/zhishi/
+http://www.tudou.com/programs/view/cWDvjxxwBTc/
+http://www.56.com/u38/v_NTgyNzI2NjU.html
+
+ <Kit:KinectButton Canvas.Left="565" Canvas.Top="158" DisplayTextColor="Black" PathFill="Red" DisplayText="C" Time="2" Name="btnPlus" Click="btnPlus_Click" />
+
+
+C:\Users\LittleMouse\Desktop\SR.Kinect.Kit\KinectButton.xaml.cs(66,51): warning CS0436: The type 'SR.Kinect.Controls.KinectButton' in 'C:\Users\LittleMouse\Desktop\SR.Kinect.Kit\KinectButton.xaml.cs' conflicts with the imported type 'SR.Kinect.Controls.KinectButton' in 'c:\Users\LittleMouse\Desktop\SR.Kinect.Kit\obj\Debug\SR.Kinect.Controls.dll'. Using the type defined in 'C:\Users\LittleMouse\Desktop\SR.Kinect.Kit\KinectButton.xaml.cs'.
+
+----------------------------------------------
+多台Kinect联合3D空间制图
+http://jandan.net/2011/06/05/kinect_3d_conferencing.html
+3Dmax破解方法：
+http://bt.neu6.edu.cn/viewthread.php?tid=789140&highlight=%2B3ds%2Bmax%2B%C8%ED%BC%FE
+
+blog:
+http://blog.sina.com.cn/u/2514214814
+http://blog.sina.com.cn/u/2514279280
+http://blog.sina.com.cn/kinectickids 
+用户名：405034802@qq.com
+密码：185792603
+weibo:http://weibo.com/login.php
+用户名：zrc_zrc48@126.com
+密码：185792603
+
+
+
+
+时光机  五月天
+情殇 信乐团
+想你 零点零一分
+想你 张靓颖
+庐州月 许嵩
+三寸天堂 
+剪爱
+
+在linux下
+
+1 实验使用ping和tracert,arp
+2 使用ifconfig命令观察当前机器的网卡配置状况
+3 学习使用route命令，怎样列出当前机器的路由表，以及在路由表里增加一条静态路由？
+4 （这条尽量在自己宿舍里的电脑上做，因为很容易破坏实验机的环境）学习《Linux操作系统》中关于内核的章节，尝试升级机器上的linux内核
+
+把实验过程和结果用拷贝、抓图、拍摄等方法上传
+
+
+
+
+
+skeleton.Joints[JointID.HandLeft].Position.X
+skeleton.Joints[JointID.HandLeft].Position.Y
+skeleton.Joints[JointID.HandLeft].Position.Z
+中的X,Y,Z坐标是什么意思？
+我看到官方上说Skeleton Space坐标系中的坐标是以Kinect为坐标原点，Z轴指向就是Kinect朝向，然后X轴指向走，Y轴指向上（相对于Kinect来说），坐标以米为单位，即上述的X,Y,Z是以米为单位，但是X,Y的范围由位于[-1,1]。于是得出一个错误结论，骨骼空间中X，Y最大表示范围就是[-1米，+1米] ？？？？？
+
+之所以有这种困惑，是因为看PPT源码时有这一句代码：
+if (rightHand.Position.X > head.Position.X + 0.45)而作者Readme文档中说明：
+The ellipses grow and change color when your hand exceeds the threshold of 45 centimeters.
+也就是说当你的手超过45cm时，也就是0.45m时，圆点就会变大并且变色。按源码作者意思，Skeleton中的X,Y,Z坐标确实是以米为单位，这样的话，就会得出我上面的错误结论！
+
+
+
+最后，如果消除这种疑惑，貌似只有一个解释，PPT源码作者他自己都没搞清楚Skeleton空间中的X,Y,Z坐标不是以米为单位。他Readme文档中描述有错，他应该完全是凭着经验调试，把临界值设置为0.45。？？？？？？？
+
+
+
+
+版主！前几天！我的大号:littlemouse发了某个帖子，然后帖子被和谐了，号被禁止发言了。然而你们一个理由也不给，也没告诉我封号多久？现在注册个小号想问个缘由？我一向都是知错能改的，只不过你们这种行为有点过分或者说这种管理员手段不成熟？如果我确实发表什么非法言论或者违反版规，请你明确指出，我会诚恳地道歉并且保证不会发生第二次。否则，希望你能恢复我的大号：littlemouse,不要放到禁止发言组，很让人郁闷。。。
+
+
+李坚明    QQ422280938     手机13480253402
+黄子贤    QQ285749705     手机622931
+霍兆棠    QQ99181517       手机13480253154
+
+
+地址：广东省广州市海珠区工业大道南金碧2期33号   联系人：蔡先生 电话：020-89082472  手机：18665055977 
+步行至省荣军医院（荣校）站
+乘坐263路 在晓港湾路下车  步行至金碧花园
+
+
+同学们，微软实习生招聘开始啦！实习地点：北京，上海。实习时间：三个月。实习职位
+：SDE/SDET/PM/SE/Sales Marketing/HR。本次实习生计划主要是针对2012年9月份之后毕
+业的同学们。加入微软吧，跟我们一起Work hard，play harder！相信在微软的实习生活
+将会成为开启大家职业生涯的一段宝贵经历。请登录www.joinms.com 查看详细职位信息并
+进行网上申请。
+
+--------------
+中山大学微软实习生招聘交流群：172497451（面向中大所有学生，欢迎大家加入,申请加
+入时请注明身份：姓名+专业）
+
+中山大学微软实习生项目班长联络群：42622538 （仅面向中山大学各班班长，申请加入时
+请注明身份：姓名+班级）
+
+如果您想通过自荐获得实习生推荐资格，请联系中山大学微软人才助力&校园大使QQ：182
+0533104(李维嘉)
+--
+
+下载说明 
+申请条件：
+
+在校的本科生，硕士研究生或者博士研究生，计算机、自动化、电子信息科学或数学物理相关学科的学生优先考虑； 
+具有良好的理论基础，良好的编程能力； 
+良好的英文读写能力； 
+良好的团队合作精神； 
+充足的时间：大多数实习持续3～6个月，每周需保证3-5个工作日, 能够有始有终地完成实习项目； 
+对技术研发有浓厚兴趣，有远大的抱负。
+如果您对我们的职位感兴趣，请下载并填写申请表，将您的简历（可以是Text、Microsoft Word或HTML格式，中英文各一份）连同填写好的申请表提交到MSRAih@microsoft.com。如果有合适的职位，我们会及时通知您。
+ 
+
+
+
+
+纪庆革 <issjqg@mail.sysu.edu.cn>;lian <gnnu_d13@163.com>;李均豪 <edwin.jh.lee@qq.com>;  陈婧 <281041827@qq.com>; 潘龙 <303643364@qq.com>; 谢振华 <junytse@gmail.com>
+
+
+同学：
+      您好！邮件已收到！我们会尽快安排时间！初定周一下午4点之后到晚上或者周二白天加晚上，你先说几个个时间段吧！大概哪几个时段有空，然后我们再进一步安排。
+      此致！
+祝好！
+                                                                                                                                      何 浩
+                                                                                                                               2011年10月28日
+
+
+
+
+
+http://www.cnkinect.com/forum-73-1.html
+
+http://auction1.paipai.com/search/0/85391440000000000005397005FEE6C4-0614.html
+http://auction1.paipai.com/search/0/8DF8A61800000000000D3B2207A863CF-0F4B.html
+http://auction1.paipai.com/search/0/D35FF6320000000004010000014C6683-DB73.html
+
+
+助理辅导员师姐邮箱:33022198@qq.com
+
+
+
+最后补充一点：所有获得捐赠奖学金的同学必在10月21日上午之前
+提交电子版获奖感言或感谢信至本人QQ邮箱：33022198@qq.com ,
+文档题目命名为“奖学金名称_班级_姓名_获奖感言”。
+
+
+
+
+
+
+各位，
+如去图书馆，请帮查阅这篇文章，请复印。
+
+刊名：Frontiers of Computer Science in China 
+Volume 4, Number 3, 405-416, DOI: 10.1007/s11704-010-0119-y 
+Review Article
+
+标题：
+Virtual cityscapes: recent advances in crowd modeling and traffic simulation 
+作者：
+Ming C. Lin and Dinesh Manocha
+
+

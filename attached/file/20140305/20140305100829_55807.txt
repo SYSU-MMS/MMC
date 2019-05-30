@@ -1,0 +1,73 @@
+/********  mmdsysu修改日志  ***********/
+
+注意：请只覆盖自己修改的文件（时间请精确到分钟），覆盖之前务必先备份服务器上的最新版本！
+
+---------------------------------------------------------------------
+Time:	2013-5-2 16:30
+Modify:	\mmdsysu\protected\views\classroom；
+More:	修改了课室管理的view层
+Man:	梓滨
+---------------------------------------------------------------------
+Time:	2013-5-4 03:06
+Modify:	\mmdsysu\protected\...
+	\mmdsysu\pChart\render\monthchart.php 
+	\mmdsysu\pChart\render\weekchart.php 
+More:	修改了各层页面的外观样式,合并了日月调查的柱状图功能
+Man：	永燊
+---------------------------------------------------------------------
+Time:	2013-5-6 20:13
+Modify:	\mmdsysu\css\
+	\mmdsysu\images\
+	\mmdsysu\protected\models\...
+	\mmdsysu\protected\views\layouts\
+More:	设备信息修改，一些外观修改，添加了首页
+Man：	梓滨
+---------------------------------------------------------------------
+Time:	2013-5-8 21:27
+Modify:	\mmdsysu\MCISP
+More:	重新更新的整个MCISP项目文件，和数据库
+www路径下有另外一个MCISP文件夹，表示整合前的项目，先存放着，等整合完善后可删去
+整合前的首页路径：http://localhost/MCISP/public/index.php
+整合后的首页路径：http://localhost/mmdsysu/MCISP/public/index.php
+修改了 \mmdsysu\protected\views\layouts\main.php文件的链接
+Man：	何浩
+Next:   服务器URL重写
+PS：助理管理和失物管理其实之前已经做完绝大部分，就是页面美工布局也做完，就是差几个按钮的ajax没写。
+因为不确定最后是否采用我的代码还是把这块留给师弟做，所以这两块我就先保持半成品状态。等待大家决定后再动工
+---------------------------------------------------------------------
+Time:	2013-5-8 00:33
+Modify:	\mmdsysu\css\
+	\mmdsysu\protected\controlers\...
+	\mmdsysu\protected\views\lamp\
+	\mmdsysu\protected\views\lampZhaodu\
+	\mmdsysu\protected\views\layouts\
+More:	周检的照度数据不放入照度记录，提供批量更新灯泡数据的功能（Excel覆盖）；修改了后台的外观；
+Man：	梓滨
+---------------------------------------------------------------------
+Time:	2013-5-10 01:322
+Modify:	\mmdsysu\protected\controlers\...
+	\mmdsysu\protected\models\...
+	\mmdsysu\protected\views\...
+More:	更新了所有与灯泡照度有关的文件，照度功能按老师要求修改。
+Man：	梓滨
+---------------------------------------------------------------------------
+Time:	2013-5-13 16:43
+Modify:	mmdsysu\MCISP\public\top.php
+More:	删去了首页的登录框 
+Man：	何浩
+---------------------------------------------------------------------------
+Time:	2013-5-16 03:17
+Modify:	\mmdsysu\js\deleteMany.js
+	\mmdsysu\protected\controllers\DeviceController.php
+	\mmdsysu\protected\views\device\...
+	\mmdsysu\protected\views\layouts\...
+More:	增加设备批量删除功能 
+Man：	梓滨
+------------------------------------------------------------------------------
+Time:	2013-5-17 12:01
+Modify:	\mmdsysu\protected\views\device\...
+	\mmdsysu\protected\views\layouts\...
+	\mmdsysu\protected\controllers\DeviceController.php
+More:	增加代换设备提醒
+Man：	梓滨
+
